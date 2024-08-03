@@ -1,0 +1,49 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Boletim",
+            "request": "launch",
+            "mainClass": "edu.gsv.primeiroteste.Boletim",
+            "projectName": "java-anatomia-classes_2d60915e"
+        },
+        {
+            "type": "java",
+            "name": "MyClass",
+            "request": "launch",
+            "mainClass": "edu.gsv.segundoteste.MyClass",
+            "projectName": "java-anatomia-classes_2d60915e"
+        },
+        {
+            "type": "java",
+            "name": "TesteNm",
+            "request": "launch",
+            "mainClass": "edu.gsv.segundoteste.TesteNm",
+            "projectName": "java-anatomia-classes_2d60915e"
+        },
+        {
+            "type": "java",
+            "name": "a",
+            "request": "launch",
+            "mainClass": "edu.gsv.segundoteste.a",
+            "projectName": "java-anatomia-classes_2d60915e"
+        },
+        {
+            "type": "java",
+            "name": "saudacao",
+            "request": "launch",
+            "mainClass": "edu.gsv.segundoteste.saudacao",
+            "projectName": "java-anatomia-classes_2d60915e"
+        }
+    ]
+}
