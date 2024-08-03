@@ -17,6 +17,10 @@ public class MyClass {
         //nome("Gustavo Santos");
 
     }
+        //...           tipo nomenclatura do método(parâmetros do método){}
+        //...           String letras(String alfabeto){}
+        //public static void nome(String nomeCompleto){
+
         public static void nome(String nomeCompleto){
             System.out.println("Seu nome é: " + nomeCompleto);
         }
