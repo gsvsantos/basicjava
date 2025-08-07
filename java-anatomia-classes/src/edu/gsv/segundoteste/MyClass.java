@@ -6,23 +6,19 @@ public class MyClass {
         String primeiroNome = "Gustavo";
         String segundoNome = "Santos";
 
-        //String nomeCompleto = "Gustavo Santos";
-        String nomeCompleto = primeiroNome + " a " + segundoNome;
-
-        System.out.println("Seu nome ée: " + nomeCompleto);
-
+        // Forma tradicional com concatenação
+        String nomeCompleto = primeiroNome + " " + segundoNome;
         nome(nomeCompleto);
 
-        //nome(primeiroNome + " " + segundoNome);
-        //nome("Gustavo Santos");
+        // Forma moderna e legível com String.format
+        nome(String.format("%s %s", primeiroNome, segundoNome));
+
+        // Forma fluente (Java 15+)
+        nome("%s %s".formatted(primeiroNome, segundoNome));
 
     }
-        //...           tipo nomenclatura do método(parâmetros do método){}
-        //...           String letras(String alfabeto){}
-        //public static void nome(String nomeCompleto){
 
         public static void nome(String nomeCompleto){
             System.out.println("Seu nome é: " + nomeCompleto);
         }
-
 }
